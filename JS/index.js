@@ -1,0 +1,20 @@
+var container = document.querySelector("#root");
+console.log(root);
+var card=document.createElement("div");
+card.setAttribute("id","card");
+container.appendChild(card);
+var image=document.createElement("img");
+image.src="images/pi.webp";
+image.alt="image";
+card.appendChild(image);
+var n=document.createElement("h4");
+n.textContent="VIJAY SINGH";
+card.appendChild(n);
+var em = document.createElement("R");
+em.textContent="vijaysingh.m8725@gmail.com";
+card.appendChild(em);
+var b=document.createElement("button");
+b.textContent="send";
+b.setAttribute("class","button");
+card.appendChild(b);
+
